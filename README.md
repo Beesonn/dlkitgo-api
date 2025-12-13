@@ -10,33 +10,33 @@
 
 </div>
 
-## 🚀 Endpoints
+## Endpoints
 
-### 🟢 Spotify 
+### Spotify 
 | Action | Endpoint |
 | :--- | :--- |
 | **Stream** | `/spotify/stream?url={url}` |
 | **Info** | `/spotify/info?url={url}` |
 | **Search** | `/spotify/search?q={song_name}` |
 
-### 🟣 Instagram 
+### Instagram 
 | Action | Endpoint |
 | :--- | :--- |
 | **Stream** | `/instagram/stream?url={url}` |
 | **Info** | `/instagram/info?url={url}` |
 
-### 🔴 YouTube 
+### YouTube 
 | Action | Endpoint |
 | :--- | :--- |
 | **Stream** | `/youtube/stream?url={url}` |
 
 ---
 
-## 🛠️ Run Locally
+## Run Locally
 
 To run this API on your local machine, ensure you have **Go** installed, then run the following commands:
 
-```bash
+```
 # Clone the repository
 git clone [https://github.com/Beesonn/dlkitgo-api](https://github.com/Beesonn/dlkitgo-api)
 
@@ -48,3 +48,4 @@ go build .
 
 # Run the API
 ./dlkitgo-api
+```
