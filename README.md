@@ -6,13 +6,23 @@
 ![GitHub forks](https://img.shields.io/github/forks/Beesonn/dlkitgo-api?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-**Ultra-fast API for downloading, searching, and fetching information from popular platforms**
+**Ultra-fast API** for downloading, searching, and fetching information from popular platforms and third party
 
 </div>
 
-## Overview
+## Endpoints
 
-dlkitgo API is a high-performance service that provides lightning-fast access to download, search, and retrieve metadata from various popular platforms including Spotify, YouTube, Instagram, and more. The API is designed with modern REST principles and offers consistent, reliable responses.
+### Spotify 
+* /spotify/stream?url=url
+* /spotify/info?url=url
+* /spotify/search?q=song
+
+### Instagram 
+* /instagram/stream?url=url
+* /instagram/info?url=url
+
+### YouTube 
+* /youtube/stream?url=url
 
 ## Locally
 
