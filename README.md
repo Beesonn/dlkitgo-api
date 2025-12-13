@@ -6,29 +6,45 @@
 ![GitHub forks](https://img.shields.io/github/forks/Beesonn/dlkitgo-api?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-**Ultra-fast API** for downloading, searching, and fetching information from popular platforms and third party
+**An ultra-fast API for downloading, searching, and fetching information from popular platforms and third-party services.**
 
 </div>
 
-## Endpoints
+## 🚀 Endpoints
 
-### Spotify 
-* /spotify/stream?url=url
-* /spotify/info?url=url
-* /spotify/search?q=song
+### 🟢 Spotify 
+| Action | Endpoint |
+| :--- | :--- |
+| **Stream** | `/spotify/stream?url={url}` |
+| **Info** | `/spotify/info?url={url}` |
+| **Search** | `/spotify/search?q={song_name}` |
 
-### Instagram 
-* /instagram/stream?url=url
-* /instagram/info?url=url
+### 🟣 Instagram 
+| Action | Endpoint |
+| :--- | :--- |
+| **Stream** | `/instagram/stream?url={url}` |
+| **Info** | `/instagram/info?url={url}` |
 
-### YouTube 
-* /youtube/stream?url=url
+### 🔴 YouTube 
+| Action | Endpoint |
+| :--- | :--- |
+| **Stream** | `/youtube/stream?url={url}` |
 
-## Locally
+---
+
+## 🛠️ Run Locally
+
+To run this API on your local machine, ensure you have **Go** installed, then run the following commands:
 
 ```bash
-git clone https://github.com/Beesonn/dlkitgo-api
+# Clone the repository
+git clone [https://github.com/Beesonn/dlkitgo-api](https://github.com/Beesonn/dlkitgo-api)
+
+# Navigate to the directory
 cd dlkitgo-api
+
+# Build the project
 go build .
+
+# Run the API
 ./dlkitgo-api
-```
