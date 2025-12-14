@@ -44,3 +44,8 @@ cd dlkitgo-api
 go build .
 ./dlkitgo-api
 ```
+
+### Vercel
+Deploy your own dlkitgo API on Vercel using the button below.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Beesonn/dlkitgo-api)
