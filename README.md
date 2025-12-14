@@ -37,15 +37,8 @@
 To run this API on your local machine, ensure you have **Go** installed, then run the following commands:
 
 ```
-# Clone the repository
-git clone [https://github.com/Beesonn/dlkitgo-api](https://github.com/Beesonn/dlkitgo-api)
-
-# Navigate to the directory
+git clone https://github.com/Beesonn/dlkitgo-api
 cd dlkitgo-api
-
-# Build the project
 go build .
-
-# Run the API
 ./dlkitgo-api
 ```
