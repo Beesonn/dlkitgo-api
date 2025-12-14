@@ -32,7 +32,9 @@
 
 ---
 
-## Run Locally
+## Installation
+
+### Run Locally
 
 To run this API on your local machine, ensure you have **Go** installed, then run the following commands:
 
