@@ -30,6 +30,11 @@
 | :--- | :--- |
 | **Stream** | `/youtube/stream?url={url}` |
 
+### Pinterest 
+| Action | Endpoint |
+| :--- | :--- |
+| **Stream** | `/pinterest/stream?url={url}` |
+
 ---
 
 ## Installation

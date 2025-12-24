@@ -3,7 +3,7 @@ module github.com/Beesonn/dlkitgo-api
 go 1.24.5
 
 require (
-	github.com/Beesonn/dlkitgo v1.2.3
+	github.com/Beesonn/dlkitgo v1.2.4
 	github.com/gin-gonic/gin v1.11.0
 )
 

@@ -2,6 +2,7 @@ package routes
 
 import (
 	"github.com/Beesonn/dlkitgo-api/src/routes/instagram"
+	"github.com/Beesonn/dlkitgo-api/src/routes/pinterest"
 	"github.com/Beesonn/dlkitgo-api/src/routes/spotify"
 	"github.com/Beesonn/dlkitgo-api/src/routes/youtube"
 	"github.com/gin-gonic/gin"
@@ -24,10 +25,14 @@ func SetupAllRoutes(r *gin.Engine) {
 					"GET /spotify/info?url=spotify_url",
 					"GET /spotify/stream?url=spotify_url",
 				},
+				"pinterest": []string{
+					"GET /pinterest/stream?url=pinterest_url",
+				},
 			},
 		})
 	})
 	spotify.SetupRoutes(r)
 	youtube.SetupRoutes(r)
 	instagram.SetupRoutes(r)
+	pinterest.SetupRoutes(r)
 }
